@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		549103FA21419CF1000CDF6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549103F921419CF1000CDF6C /* AppDelegate.swift */; };
-		549103FC21419CF1000CDF6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549103FB21419CF1000CDF6C /* ViewController.swift */; };
+		549103FC21419CF1000CDF6C /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549103FB21419CF1000CDF6C /* IntroductionViewController.swift */; };
 		549103FF21419CF1000CDF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549103FD21419CF1000CDF6C /* Main.storyboard */; };
 		5491040121419CF2000CDF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5491040021419CF2000CDF6C /* Assets.xcassets */; };
 		5491040421419CF2000CDF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5491040221419CF2000CDF6C /* LaunchScreen.storyboard */; };
+		5491040C2141A533000CDF6C /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491040B2141A533000CDF6C /* QuestionViewController.swift */; };
+		5491040E2141A546000CDF6C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491040D2141A546000CDF6C /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		549103F621419CF1000CDF6C /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		549103F921419CF1000CDF6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		549103FB21419CF1000CDF6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		549103FB21419CF1000CDF6C /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		549103FE21419CF1000CDF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5491040021419CF2000CDF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5491040321419CF2000CDF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5491040521419CF2000CDF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5491040B2141A533000CDF6C /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		5491040D2141A546000CDF6C /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				549103F921419CF1000CDF6C /* AppDelegate.swift */,
-				549103FB21419CF1000CDF6C /* ViewController.swift */,
+				549103FB21419CF1000CDF6C /* IntroductionViewController.swift */,
+				5491040B2141A533000CDF6C /* QuestionViewController.swift */,
+				5491040D2141A546000CDF6C /* ResultsViewController.swift */,
 				549103FD21419CF1000CDF6C /* Main.storyboard */,
 				5491040021419CF2000CDF6C /* Assets.xcassets */,
 				5491040221419CF2000CDF6C /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549103FC21419CF1000CDF6C /* ViewController.swift in Sources */,
+				5491040C2141A533000CDF6C /* QuestionViewController.swift in Sources */,
+				549103FC21419CF1000CDF6C /* IntroductionViewController.swift in Sources */,
 				549103FA21419CF1000CDF6C /* AppDelegate.swift in Sources */,
+				5491040E2141A546000CDF6C /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
